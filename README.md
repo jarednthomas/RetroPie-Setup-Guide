@@ -156,12 +156,8 @@ The following was appeneded to `/boot/config.txt`
 [Documentation](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README) for overlays in /boot/config.txt
 
 ```
-sudo nano /boot/config.txt
-```
-	
-
-```
 $ sudo nano /boot/config.txt
+
 ----- Appended to /boot/config.txt -----
 
 # Disable Wi-Fi
@@ -174,11 +170,31 @@ avoid_warnings=1
 # Max USB Power
 max_usb_current=1
 
+```
 
+The above three sections: disables onboard wifi, disables the rainbow splash and lightning bolt power warnings etc, and raises the USB power from 600 to 1200.
 
+---
 
+## ----- /boot/cmdline.txt -----
 
+The following was appened to the line in `/boot/cmdline.txt`
 
+Not a new line, on the same line:
+```
+$ sudo nano /boot/cmdline.txt
 
+----- Appended to the same line -----
 
+logo.nologo vt.global_cursor_default=0 
+```
 
+change existing console=tty? to `console=tty3`
+
+I forget what it was on before, I think tty1
+
+`logo.nologo` removes the four raspberrys on boot
+
+`vt.global_cursor_default=0` removes the blinking cursor on boot
+
+---
