@@ -161,7 +161,7 @@ sudo apt upgrade -y
 
 Clone, Make, and Install [medusalix/xow](https://github.com/medusalix/xow)
 
-Reboot system, pairing contoller like before.
+Reboot system, mapping contoller like in previous examples.
 
 ---
 
