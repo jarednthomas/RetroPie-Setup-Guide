@@ -1,10 +1,26 @@
+## Tables of Contents
+
+[Installation](#Installation)
+
+[Configuration](#Configuration)
+- [USB Keyboard Mapping](#USB-Keyboard-Mapping)
+- [raspi-config](#raspi-config)
+- [retropie-setup](#RetroPie-Setup)
+- [8bitdo NES30 Bluetooth Pairing](#8bitdo-NES30-Bluetooth-Pairing)
+- [8bitdo NES30 Button Mapping](#8bitdo-NES30-Button-Mapping
+)
+- [Xbox One RF Adapter](#Xbox-One-RF-Adapter)
+- [/boot/config.txt](#/boot/config.txt)
+- [/boot/cmdline.txt](#/boot/cmdline.txt)
+
+---
 # Installation
 
 Download latest [retropie](https://retropie.org.uk/download/) and Flash with [balenaEtcher](https://www.balena.io/etcher/)
 
 # Configuration
 
-## ----- USB Keyboard Mapping -----
+## USB Keyboard Mapping
 Boot into retropie, device should expand filesystem to full sdcard and reboot.
 
 Connect USB keyboard. Press any key to start mapping. Optimal keyboard mapping to match raspiconfig defaults*:
@@ -18,7 +34,7 @@ Connect USB keyboard. Press any key to start mapping. Optimal keyboard mapping t
 
 ---
 
-## ----- raspi-config -----
+## raspi-config
 Navigate through RetroPie UI to RetroPie Settings.
 
 Within RetroPie Settings, Navigate to `raspi-config`
@@ -51,7 +67,7 @@ Finish/Exit and Reboot System
 
 ---
 
-## ----- RetroPie Setup -----
+## RetroPie Setup
 
 Connect to internet.
 
@@ -78,7 +94,7 @@ Exit to retropie setup main menu.
 
 ---
 
-## ----- 8bitdo NES30 | Bluetooth Pairing -----
+## 8bitdo NES30 Bluetooth Pairing
 
 After reboot, Head back to RetroPie Setup menu
 
@@ -110,7 +126,7 @@ exit Configuration
 
 ---
 
-## ----- 8bitdo NES30 | Button Mapping -----
+## 8bitdo NES30 Button Mapping
 
 Boot/Reboot device and controller, device should auto pair after Emulation Station has started.
 
@@ -132,7 +148,7 @@ Hold any button on the NES30 to start mapping:
 
 ---
 
-## ----- Xbox One | RF Adapter -----
+## Xbox One RF Adapter
 
 Reinstall xpad driver in `RetroPie Setup/Manage packages/driver`.
 
@@ -149,7 +165,7 @@ Reboot system, pairing contoller like before.
 
 ---
 
-## ----- /boot/config.txt -----
+## /boot/config.txt
 
 The following was appeneded to `/boot/config.txt`
 
@@ -176,7 +192,7 @@ The above three sections: disables onboard wifi, disables the rainbow splash and
 
 ---
 
-## ----- /boot/cmdline.txt -----
+## /boot/cmdline.txt
 
 The following was appened to the line in `/boot/cmdline.txt`
 
@@ -196,5 +212,3 @@ I forget what it was on before, I think tty1
 `logo.nologo` removes the four raspberrys on boot
 
 `vt.global_cursor_default=0` removes the blinking cursor on boot
-
----
