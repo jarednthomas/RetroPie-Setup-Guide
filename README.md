@@ -1,4 +1,4 @@
-## Tables of Contents
+# Table of Contents
 
 [Installation](#Installation)
 
@@ -10,10 +10,10 @@
 - [8bitdo NES30 Button Mapping](#8bitdo-NES30-Button-Mapping
 )
 - [Xbox One RF Adapter](#Xbox-One-RF-Adapter)
-- [/boot/config.txt](#/boot/config.txt)
-- [/boot/cmdline.txt](#/boot/cmdline.txt)
+- [/boot/config.txt](#boot-config.txt)
+- [/boot/cmdline.txt](#boot-cmdline.txt)
 
----
+
 # Installation
 
 Download latest [retropie](https://retropie.org.uk/download/) and Flash with [balenaEtcher](https://www.balena.io/etcher/)
@@ -165,7 +165,7 @@ Reboot system, pairing contoller like before.
 
 ---
 
-## /boot/config.txt
+## boot config.txt
 
 The following was appeneded to `/boot/config.txt`
 
@@ -192,7 +192,7 @@ The above three sections: disables onboard wifi, disables the rainbow splash and
 
 ---
 
-## /boot/cmdline.txt
+## boot cmdline.txt
 
 The following was appened to the line in `/boot/cmdline.txt`
 
