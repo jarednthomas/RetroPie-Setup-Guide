@@ -167,7 +167,7 @@ Reboot system, pairing contoller like before.
 
 ## config
 
-The following was appeneded to `/boot/config.txt`
+The following was appeneded as new lines to `/boot/config.txt`
 
 [Documentation](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README) for overlays in /boot/config.txt
 
