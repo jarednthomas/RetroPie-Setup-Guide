@@ -10,8 +10,8 @@
 - [8bitdo NES30 Button Mapping](#8bitdo-NES30-Button-Mapping
 )
 - [Xbox One RF Adapter](#Xbox-One-RF-Adapter)
-- [config.txt](#config.txt)
-- [cmdline.txt](#cmdline.txt)
+- [config.txt](#config)
+- [cmdline.txt](#cmdline)
 
 
 # Installation
@@ -165,7 +165,7 @@ Reboot system, pairing contoller like before.
 
 ---
 
-## config.txt
+## config
 
 The following was appeneded to `/boot/config.txt`
 
@@ -192,7 +192,7 @@ The above three sections: disables onboard wifi, disables the rainbow splash and
 
 ---
 
-## cmdline.txt
+## cmdline
 
 The following was appened to the line in `/boot/cmdline.txt`
 
