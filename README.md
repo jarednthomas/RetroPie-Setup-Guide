@@ -212,3 +212,7 @@ I forget what it was on before, I think tty1
 `logo.nologo` removes the four raspberrys on boot
 
 `vt.global_cursor_default=0` removes the blinking cursor on boot
+
+---
+
+After optimal setup was complete, a backup image of the system was created with [imgclone](https://github.com/tom-2015/imgclone).
