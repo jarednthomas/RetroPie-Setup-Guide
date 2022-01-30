@@ -169,7 +169,7 @@ Reboot system, mapping contoller like in previous examples.
 
 The following was appeneded as new lines to `/boot/config.txt`
 
-[Documentation](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README) for overlays in /boot/config.txt
+[Documentation](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README) for overlay options.
 
 ```
 $ sudo nano /boot/config.txt
@@ -188,7 +188,7 @@ max_usb_current=1
 
 ```
 
-The above three sections: disables onboard wifi, disables the rainbow splash and lightning bolt power warnings etc, and raises the USB power from 600 to 1200.
+The above three sections: disables onboard wifi, disables the rainbow splash and lightning bolt logo power warnings etc, and raises the USB power from 600 to 1200.
 
 ---
 
@@ -207,11 +207,11 @@ logo.nologo vt.global_cursor_default=0
 
 change existing console=tty? to `console=tty3`
 
-I forget what it was on before, I think tty1
+I forget what it was on before, I think tty1.
 
-`logo.nologo` removes the four raspberrys on boot
+`logo.nologo` removes the four raspberrys on boot.
 
-`vt.global_cursor_default=0` removes the blinking cursor on boot
+`vt.global_cursor_default=0` removes the blinking cursor on boot.
 
 ---
 
